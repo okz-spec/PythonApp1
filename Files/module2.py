@@ -1,6 +1,3 @@
-arvud = []
-for i in range(5):
-    arv = int(input(f"Sisesta {i+1}. arv: "))
 # - Ülesanne 2
 # Mis tüüpi on järgnevad muutujad:
 # a) vanus = 18
