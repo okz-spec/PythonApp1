@@ -1,4 +1,4 @@
-import random
+from random import *
 
 kommide_arv = random.randint(1, 20)
 print(f"Kommi arv laual: {kommide_arv}")
