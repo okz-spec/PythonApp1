@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8e8808df-2e2f-4cff-9cb9-dc7fc5258238</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApp1.py</StartupFile>
+    <StartupFile>runner.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="module1.py" />
-    <Compile Include="module2.py" />
-    <Compile Include="PythonApp1.py" />
+    <Compile Include="Files\module1.py" />
+    <Compile Include="Files\module10.py" />
+    <Compile Include="Files\module2.py" />
+    <Compile Include="Files\module3.py" />
+    <Compile Include="Files\module4.py" />
+    <Compile Include="Files\module5.py" />
+    <Compile Include="Files\module6.py" />
+    <Compile Include="Files\module7.py" />
+    <Compile Include="Files\module8.py" />
+    <Compile Include="Files\module9.py" />
+    <Compile Include="runner.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
