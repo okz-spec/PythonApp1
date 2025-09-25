@@ -5,4 +5,4 @@ jootraha = hind * toetust
 hind_koos_jootraha = hind + jootraha
 
 maksmine = hind_koos_jootraha / P
-print(f"Igaüks peab maksma {maksmine:.2f} €")
+print(f"IgaÃ¼ks peab maksma {maksmine:.2f} â‚¬")
