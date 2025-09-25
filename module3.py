@@ -1,6 +1,6 @@
 from random import *
 
-kommide_arv = random.randint(1, 20)
+kommide_arv = randint(1, 20)
 print(f"Kommi arv laual: {kommide_arv}")
 
 korraga = int(input("Kui palju kommi soovid ära võtta? "))
