@@ -15,9 +15,9 @@ modules = {
 
 def peamenüü():
     while True:
-        print("Vali number, mille mooduli soovid laadida ja käivitada:")
+        print("Vali number, mis ülesanne soovid laadida ja käivitada:")
         for key in modules:
-            print(f"{key}. Moodul {key}")
+            print(f"{key}. Ülesanne {key}")
 
         valik = input("Sisesta number (või 'q' väljumiseks): ")
 
